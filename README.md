@@ -1,6 +1,6 @@
 # MODAL POPUP BOX
 
-_este es un ejemplo sencillo de modal pop up hecho con CSS y JS_
+_This is a simple example of a pop up modal made with css and js_
 
 ---
 ⌨️ with ❤️ by [LuzGonzalez](https://github.com/LuzGonzalez)
