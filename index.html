@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Box | Vanilla JS</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a class="btn" onclick="popupToggle();">Click Here</a>
+    <div id="popup">
+        <div class="content">
+            <img src="./SRC/email.png" alt="">
+            <h2>Hi There</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque vel voluptatum, impedit eius voluptas molestiae
+                non expedita adipisci soluta, velit maiores nesciunt?..
+            </p>
+            <div class="inputBox">
+                <input type="email" placeholder="Enter email"> 
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Sign Up" class="btn">
+            </div>
+            <a class="close" onclick="popupToggle();"><img src="./SRC/close.png" alt=""></a>
+        </div>
+    </div>
+    <script src="./JS/popup-modal.js"></script>
+    
+</body>
+</html>
